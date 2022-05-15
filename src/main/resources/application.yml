@@ -1,0 +1,7 @@
+spring:
+  response:
+    exceptions:
+      custom1:
+        code: 400
+        msg: 'Something went wrong'
+        type: org.pcloud.fluxsample.DemoException
